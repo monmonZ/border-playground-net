@@ -5,33 +5,28 @@
 以下の環境で作成  
 - PC: Mac OS BigSur (M1)  
 - IDE: IntelliJ IDEA  
-<hr>
 
 ### 各種ツールをインストール
-#### yarnをインストール
-<pre>
+
+``` bash
+# yarnをインストール
 $ brew install yarn
-</pre>
-#### nodebrewをインストール
-node.jsをバージョン管理するためnodebrewを導入
-<pre>
+
+# nodebrewをインストール
+# node.jsをバージョン管理するためnodebrewを導入
 $ brew install nodebrew
-</pre>
-#### node.jsをインストール
-<pre>
+
+# node.jsをインストール
 $ nodebrew install-binary latest
 $ node -v
 v12.8.0
 $ 
-</pre>
-<hr>
+# Vue コマンド追加
+$ npm i -g @vue/cli @vue/cli-init
+
+``` 
 ### git clone
 このリポジトリをgit cloneする
-<hr>
-### Vue コマンド追加
-<pre>
-$ npm i -g @vue/cli @vue/cli-init
-</pre>
 
 ### プロジェクト作成
 <pre>
@@ -39,7 +34,7 @@ $ vue init nuxt-community/starter-template border-playground-net
 
 ? Project name border-playground-net
 ? Project description Nuxt.js project
-? Author m0nmonZ <21101407+monmonZ@users.noreply.github.com>
+? Author xxxxxxx
 
    vue-cli · Generated "border-playground-net".
 
